@@ -2,11 +2,22 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: inline-block;
+    display: inline;
 }
 
 li {
     display: inline;
+}
+
+li a{
+    color: gray;
+    text-align: center;
+    padding: 14px 10px;
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: underline;
 }
 
 .BodyContent {
@@ -23,14 +34,19 @@ header {
 
 footer {
 	position: fixed;
-	bottom: 0px;
+	bottom: 10px;
 	width: 100%;
 }
 
 .LeftBottomNavBarContent {
+	width: 50%;
 	text-align: left;
 }
 .RightBottomNavBarContent {
+	position: absolute;
+	width: 50%;
+	bottom: 0px;
+	right: 0px;
 	text-align: right;
 }
 
@@ -51,8 +67,21 @@ footer {
 
 .Button{
 	padding: 8px 20px;
-	border: none;
+	border: 1px solid transparent;
 	font: 14px arial;
 	color: #606B7A;
 	font-weight: bold
+}
+
+.Button:hover{
+	color: black;
+	border: 1px solid gray;
+}
+
+.TextBox:hover{
+	border: 1px solid gray;
+}
+
+.TextBox:active{
+	border: 1px solid cyan;
 }
