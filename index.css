@@ -1,0 +1,58 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+li {
+    display: inline;
+}
+
+.BodyContent {
+	position: relative;
+	top: 190px;
+	text-align: center;
+}
+
+header {
+	position: relative;
+	text-align: right;
+	top: 0px;
+}
+
+footer {
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+}
+
+.LeftBottomNavBarContent {
+	text-align: left;
+}
+.RightBottomNavBarContent {
+	text-align: right;
+}
+
+.Country{
+	font: 16px arial;
+	color: #3b70ff;
+	position: absolute;
+	text-align: left;
+	top: 75px;
+	left: 1030px;
+}
+
+.TextBox{
+	width: 29%;
+	padding: 12px 20px;
+	border: 1px solid #D3DBE3;
+}
+
+.Button{
+	padding: 8px 20px;
+	border: none;
+	font: 14px arial;
+	color: #606B7A;
+	font-weight: bold
+}
