@@ -51,10 +51,10 @@ li {
 .Country{
 	color: #3b70ff;
 	font: 16px Arial, "Helvetica Neue";
-	left: 1038px;
+	left: 54%;
 	position: absolute;
-	text-align: left;
-	top: 75px;
+	text-align: right;
+	top: 30%;
 }
 
 li a {
@@ -74,6 +74,10 @@ li a:hover {
 	background: #6495ed;
 	border-radius: 2px;
 	color: white;
+}
+
+.AppIcon:hover {
+	color: black;
 }
 
 .TextBox{
